@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     _millisecondsText,
                     style: TextStyle(
                         fontSize: 36,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.w500,
                         color: Colors.white),
                   ),
                 ),
@@ -83,14 +83,14 @@ class _MyHomePageState extends State<MyHomePage> {
               child: ColoredBox(
                 color: _getButtonColor(),
                 child: SizedBox(
-                  height: 160,
+                  height: 200,
                   width: 200,
                   child: Center(
                     child: Text(
                       _getButtonText(),
                       style: TextStyle(
                           fontSize: 38,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w900,
                           color: Colors.white),
                     ),
                   ),
