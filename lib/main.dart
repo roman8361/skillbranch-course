@@ -36,16 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Color(0xFF282E3D),
         body: Stack(children: [
           Align(
-            alignment: const Alignment(0, -0.8),
-            child: Text(
-              "Test your \nreactions speed",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: 38,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
-            ),
-          ),
+              alignment: const Alignment(0, -0.8),
+              child: Text("Test your reaction speed",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 38,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.white))),
           Align(
             alignment: Alignment.center,
             child: ColoredBox(
@@ -153,4 +150,3 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 enum GameState { readyToStart, waiting, canBeStopped }
-
